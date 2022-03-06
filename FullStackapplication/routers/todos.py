@@ -4,7 +4,7 @@ import models
 from database import engine, SessionLocal
 from sqlalchemy.orm import Session
 from pydantic import BaseModel, Field
-from routers.auth import get_current_user, get_user_exception
+from routers.auth import get_current_user
 from routers import auth
 from starlette.responses import RedirectResponse
 from starlette import status
